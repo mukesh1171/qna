@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h3>Context (you can paste your own content in the text area)</h3>
+  <textarea id='context' rows="30" cols="120"></textarea>
+  <h3>Question</h3>
+  <input type=text id="question"> <button id="search">Search</button>
+  <h3>Answers</h3>
+  <div id='answer'></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/qna"> </script>
+  <script src="./script.js" onload="load()"></script>  
+</body>
+</html>
+
